@@ -1,0 +1,20 @@
+body {
+    background-color: #f0f8ff; /* Light background for better contrast */
+    overflow: hidden; /* Prevent scrollbars */
+    margin: 0;
+    height: 100vh; /* Full viewport height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cat {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: #ffcccb; /* Light pink color for cat */
+    border-radius: 50%;
+    background-image: url('https://cdn-icons-png.flaticon.com/512/616/616408.png'); /* Cat image */
+    background-size: cover; /* Cover the div with the cat image */
+    transition: transform 0.5s; /* Smooth transition for movement */
+}
